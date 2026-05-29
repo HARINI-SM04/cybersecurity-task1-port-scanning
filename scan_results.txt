@@ -1,0 +1,19 @@
+# Nmap 7.99 scan initiated Fri May 29 18:43:02 2026 as: nmap -sS -oN scan_results.txt 10.29.5.0/24
+Nmap scan report for 10.29.5.85
+Host is up (0.0045s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 62:49:4A:02:1E:42 (Unknown)
+
+Nmap scan report for 10.29.5.76
+Host is up (0.00066s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+# Nmap done at Fri May 29 18:43:08 2026 -- 256 IP addresses (2 hosts up) scanned in 6.56 seconds
